@@ -1,0 +1,21 @@
+.menu-item {
+display: inline-block;
+padding: 10px 20px;
+margin-right: 10px;
+background-color: #129a6b;
+color: #ffffff;
+text-decoration: none;
+font-family: sans-serif;
+border: 1px solid #129a6b;
+transition: all 0.3s ease;
+}
+.menu-item:hover {
+background-color: #ffffff;
+color: #129a6b;
+border-color: #129a6b;
+}
+.menu-item.active {
+background-color: #ffffff;
+color: #129a6b;
+border-color: #129a6b;
+}

@@ -1,0 +1,27 @@
+.menu-vertical {
+display: flex;
+flex-direction: column;
+width: 300px;
+gap: 10px;
+}
+.menu-item {
+display: block;
+padding: 15px 20px;
+background-color: #129a6b;
+color: #ffffff;
+text-decoration: none;
+font-family: sans-serif;
+border: 1px solid #129a6b;
+box-sizing: border-box;
+transition: all 0.3s ease;
+}
+.menu-item:hover {
+background-color: #ffffff;
+color: #129a6b;
+border-color: #129a6b;
+}
+.menu-item.active {
+background-color: #ffffff;
+color: #129a6b;
+border-color: #129a6b;
+}
